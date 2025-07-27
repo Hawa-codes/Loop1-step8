@@ -135,8 +135,8 @@ h1 {
 }
 
 .preview {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     padding-left: 20px;
     object-fit: cover;
 }

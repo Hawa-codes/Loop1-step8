@@ -82,7 +82,7 @@ ul{
 }
 
 ul .not-active {
-    color: #b4b4b4;
+    color: #938f8f;
     font-size: 12px;
 }
 
@@ -119,7 +119,10 @@ h1 {
 .container .left-panel p{
     font-size: 18px;
     color: black;
-    font-family: Arial;
+}
+
+.author-description {
+  font-family: 'Georgia', serif;
 }
 
 .author {
@@ -154,6 +157,7 @@ h1 {
     display: flex;
     align-items: center;
     gap: 5px;
+    white-space: nowrap; 
 }
 
 .view-photos:hover {
@@ -164,6 +168,6 @@ h1 {
 .description {
     font-size: 14px;
     line-height: 1.7;
-    color: #555;
+    color: black;
     width: 100%;
 }
